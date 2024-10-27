@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+/*     Regular 400 Medium 500 SemiBold 600 Bold 700 */
+
+@font-face {
+    font-family: 'GESSTwoMedium';
+    src: url('../fonts/GESSTwoMedium.eot');
+    src: url('../fonts/GESSTwoMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GESSTwoMedium.woff2') format('woff2'),
+        url('../fonts/GESSTwoMedium.woff') format('woff'),
+        url('../fonts/GESSTwoMedium.ttf') format('truetype'),
+        url('../fonts/GESSTwoMedium.svg#GESSTwoMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+img{max-width:100%;height:auto;}
+
+a{-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-o-transition: all .3s ease;-ms-transition: all .3s ease;transition: all .3s ease;}
+h1 {font-size:36px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h2 {font-size:24px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h3 {font-size:24px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h4 {font-size:24px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h5 {font-size:20px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 600;}
+h6 {font-size:16px;color:#333333; margin:0px 0px 10px 0px;padding:0px;font-family: 'Montserrat', sans-serif;font-weight: 500;}
+
+
+.spacer1px {clear:both;line-height:0;font-size:0;overflow:hidden;height:1px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer10px {clear:both;line-height:0;font-size:0;overflow:hidden;height:10px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer20px {clear:both;line-height:0;font-size:0;overflow:hidden;height:20px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+.spacer30px {clear:both;line-height:0;font-size:0;overflow:hidden;height:30px; background:none; margin:0px 0px 0px 0px;width:100%; border:none;}
+
+body {
+  overflow-x:hidden;
+  color:#3E3E3E;
+  font-size:15px;
+  line-height:1.6; 
+  margin:0px; 
+  padding:0px; 
+  outline:none;
+  text-decoration:none;
+  list-style:none;
+  box-sizing: border-box;
+  background: #f6f6f6;
+  font-family: 'Montserrat', sans-serif;font-weight: 500;
+}
+p{color:#3E3E3E;font-size:15px;line-height:1.6;  margin:0px 0px 20px 0px;font-family: 'Montserrat', sans-serif;font-weight: 500;}
+ul, ol {list-style: none;margin: 0;padding: 0;}
+a{}
+
+.form-control::-webkit-input-placeholder {color: rgba(51,51,51,0.7) !important; opacity:1 !important;}
+.form-control::-moz-placeholder {color:rgba(51,51,51,0.7) !important; opacity:1 !important;}
+.form-control:-ms-input-placeholder {color:rgba(51,51,51,0.7) !important; opacity:1 !important;}
+.form-control:-moz-placeholder {color: rgba(51,51,51,0.7) !important; opacity:1 !important;}
+
+
+.page-title{ position:relative; margin-bottom:10px;text-align: center;}
+.page-title h2{font-size:32px;color:#333333; margin:0px 0px 10px 0px;padding:0px 0px 0px 0px; text-transform: uppercase; }
+.page-title h2 span{color:#e82e2e;margin:0px 0px 10px 0px; }
+.page-title h6{color:#e82e2e;margin:0px 0px 5px 0px; }
+.page-title p{ color: rgba(51,51,51,0.6)}
+
+
+
+
+
+/*==================== Header =====================*/
+
+
+
+
+.company-info{ position: relative; padding: 20px; background-color: #fff; margin-bottom: 20px;}
+.company-info ul li{ padding: 0px 0px 10px 35px; position: relative;}
+.company-info img{width:20px;  position: absolute; left: 0px; top: 2px;}
+.company-profile{ text-align: center; padding-bottom: 20px;}
+.company-profile img{ width: 100px; border-radius: 50%; margin: -75px auto 5px auto;position: relative;}
+
+
+.company-info.topmargin{ margin-top: 100px;}
+
+
+footer{position: relative;padding: 30px 0px;background-color: #14306a;color: #fff; text-align: center;}
+footer h5{color:#fff; margin-bottom: 0px;}
+footer h6{color:#fff;margin-bottom: 10px;}
+footer img{width:150px; margin: 0px 5px;}
+img.footer-logo{ max-width: 60px; width: 100%; margin-bottom: 10px;}
+
+
+
+
+/*==================== Btn =====================*/
+
+.btn-style-one{color: #fff; text-align:center; border:0px solid #7DC18C;padding: 10px 30px;background:#14306a; transition: 0.5s ease-in-out; display:inline-block;  border-radius: 25px; margin: 0px 5px;}
+.btn-style-one:hover{background:#2f2f2f;color: #fff;}
+.btn-style-one.last{background:#2f2f2f;}
+.btn-style-one.last:hover{background:#14306a;}
+
+
+/*==================== Arabic =====================*/
+
+
+
+body.arabic-version{direction:rtl;text-align:right;font-family: 'GESSTwoMedium'; font-weight: 500 !important;}
+body.arabic-version p{font-family: 'GESSTwoMedium'; font-weight: 500 !important;}
+
+body.arabic-version h1,body.arabic-version h2,body.arabic-version h3,body.arabic-version h4,body.arabic-version h5,body.arabic-version h6
+{font-family: 'GESSTwoMedium'; font-weight: 500 !important;}
+
+
+
+body.arabic-version .eng-font1.numbers {direction: ltr;unicode-bidi: embed;}
+body.arabic-version .eng-font2.numbers {direction: ltr;unicode-bidi: embed;}
+
+body.arabic-version .eng-font1
+{font-family: 'Montserrat', sans-serif !important;font-weight: 500 !important;}
+
+body.arabic-version .company-info ul li {padding: 0px 35px 10px 0px;}
+body.arabic-version .company-info img {left: inherit; right: 0;}
+
+
+@media only screen and (min-width:1401px) and (max-width:1500px) {
+	
+	
+}
+@media only screen and (min-width:1301px) and (max-width:1400px) {
+h1 {font-size:33px;}
+h2 {font-size:28px;}
+h3 {font-size:26px;}
+h4 {font-size:24px;}
+h5 {font-size:18px;}
+h6 {font-size:16px;}
+.page-title h2 {font-size: 28px;}
+	
+	
+}
+@media only screen and (min-width:1200px) and (max-width:1300px) {
+
+
+	
+	
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+	
+	
+	
+	
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+	
+	
+	
+	
+	
+}
+@media only screen and (max-width:767px) {
+body{ font-size:14px;}	
+h2 {font-size: 20px;}
+h5 {font-size: 18px;}
+h6 {font-size: 14px;}	
+.btn-style-one{padding: 10px 15px;margin: 0px 2px; font-size: 12px;}
+footer img {width: 120px;}	
+.row > * {padding-right: calc(var(--bs-gutter-x) * 0.0) !important;padding-left: calc(var(--bs-gutter-x) * 0.0) !important;}
+	
+	
+}
+input,textarea {-webkit-user-select:text;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+
+.back-to-top {width:40px;height:40px;line-height:40px;text-align:center;background:#202E3F;position:fixed;bottom:0px;right:0px;text-decoration:none;color:#fff;font-size:14px;display:none;z-index:999;}
+.back-to-top:hover {opacity:.6;filter:alpha(opacity=60)}
+.back-to-top:focus, .back-to-top:hover {color:#fff!important}
+
+
+
+
+
+
+
+
+
+
+
+
